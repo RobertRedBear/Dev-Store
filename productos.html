@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My virtual store</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="FrontEndStore_inicio/img/logo.png" alt="logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__link navegacion__link--activo" href="tienda.html">Tienda</a>
+        <a class="navegacion__link " href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>ReactJs</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="FrontEndStore_inicio/img/3.jpg" alt="">
+
+
+            <div class="camisa__contenido">
+                <p>Phasellus porta viverra lacus, id vestibulum tortor lacinia non. Phasellus elit ante, ultricies vel
+                    justo
+                    ac, facilisis semper tortor. Aliquam erat volutpat. Pellentesque id magna odio. Suspendisse sed orci
+                    orci. Phasellus efficitur eu mi ut eleifend. Suspendisse convallis vitae turpis sit amet hendrerit.
+                </p>
+
+                <form action="" class="formulario">
+                    <select name="" id="" class="formulario__campo">
+                        <option value="" disabled selected>--Seleccionar talla--</option>
+                        <option value="">Chica</option>
+                        <option value="">Mediana</option>
+                        <option value="">Grande</option>
+                    </select>
+
+                    <input type="number" placeholder="Cantidad" min="1" class="formulario__campo">
+                    <input type="submit" value="Agregar al carrito" class="formulario__submit">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End store - Todos los derechos reservados &copy;</p>
+    </footer>
+</body>
+
+</html>
